@@ -5,7 +5,7 @@ return {
   config = function()
     local harpoon = require 'harpoon'
 
-    -- REQUIRED
+    -- REQUIRED 
     harpoon:setup()
     -- REQUIRED
 
