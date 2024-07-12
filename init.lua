@@ -920,5 +920,12 @@ require('lazy').setup({
   },
 })
 
+-- Here we set the remaps files and require them
+require('custom.remap')
+
+-- Here we set the sets files and require them
+require('custom.set')
+
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
