@@ -794,11 +794,11 @@ require('lazy').setup({
       vim.cmd.hi 'Comment gui=none'
     end,
 
-    require('onedark').setup {
-      style = 'deep',
-    },
+    --require('onedarkpro').setup {
+    --  style = 'onedark_dark',
+    --},
 
-    require('onedark').load(),
+    --require('onedarkpro').load(),
   },
 
   -- Highlight todo, notes, etc in comments
